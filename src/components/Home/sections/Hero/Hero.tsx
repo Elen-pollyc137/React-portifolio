@@ -22,14 +22,14 @@ const Hero = () => {
           <Grid item xs={12} md={4}>
                 <StyleImage src={Avatar} alt="" />
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={8}>
                 <Typography color='primary' variant="h1" textAlign='center'>Elen Poliana</Typography>
                 <Typography color='primary' variant="h2"  textAlign='center'>Developer</Typography>
                 <Grid container display='flex' justifyContent='center'>
-                <Grid item xs={12} md={6} display='flex' justifyContent='center'>
+                <Grid item xs={12} md={4} display='flex' justifyContent='center'>
                    <Button> <ArrowDownwardIcon/> Dowload CV</Button>
                 </Grid>
-                <Grid item xs={12} md={6} display='flex' justifyContent='center'>
+                <Grid item xs={12} md={4} display='flex' justifyContent='center'>
                   <Button> <EmailIcon/> Contact CV</Button>
                 </Grid>
                 </Grid>
