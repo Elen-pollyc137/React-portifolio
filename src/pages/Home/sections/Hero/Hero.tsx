@@ -8,7 +8,8 @@ const Hero = () => {
   const StyleHero = styled('div')(() => ({
     background: '#000000',
     height: '100vh',
-    padding: 0
+    paddingTop: '100px'
+    
   }))
   const StyleImage = styled('img')(() => ({
     width: '100%',
@@ -17,12 +18,12 @@ const Hero = () => {
   return (
     <>
     <StyleHero>
-      <Container>
+      <Container maxWidth='lg'>
         <Grid container spacing={2}>
           <Grid item xs={12} md={4}>
                 <StyleImage src={Avatar} alt="" />
           </Grid>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} md={7}>
                 <Typography color='primary' variant="h1" textAlign='center'>Elen Poliana</Typography>
                 <Typography color='primary' variant="h2"  textAlign='center'>Developer</Typography>
                 <Grid container display='flex' justifyContent='center'>
